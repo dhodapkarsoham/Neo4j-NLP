@@ -1,0 +1,4 @@
+py2neo
+spacy
+nltk
+glob
