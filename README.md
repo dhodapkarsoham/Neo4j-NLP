@@ -10,3 +10,9 @@ In addition to going from raw text to knowledge graphs, one can also build NLU-N
 The system demonstrated in this application tries to move towards this by building a near-natural language querying for the graph database underneath.
 We can also build such an interface on top of an existing database by leveraging the relationships which are already there.
 We'll take a look at both of these approaches by using BBC Business Articles for the first approach, and the [Neo4j Panama Papers Database by ICIJ](https://offshoreleaks.icij.org/pages/database) for the second one.
+
+Some instructions/things to remember:
+Before you start with the Panama papers dataset, make sure that the folder `graph.db` used in Panama Papers Database is copied in your Neo4j folder in `NEO4J_HOME/data/databases/`.
+Make sure you allocate sufficient heap size and page cache for Neo4j by making changes in `neo4j.conf` file in `NEO4J_HOME/conf/`. More instructions can be found on [Neo4j documentation page](https://neo4j.com/docs/operations-manual/current/performance/memory-configuration/).
+
+
