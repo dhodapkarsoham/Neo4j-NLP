@@ -13,7 +13,7 @@ We'll take a look at both of these approaches by using BBC Business Articles for
 
 Some instructions/things to remember: <br>
 * Neo4j version used -> Neo4j-Enterprise-3.5.6 <br>
-* The BBC dataset is in archived format. Unzip it to get a folder containing business news articles having `.txt` extension. The path where you unzip this archive will go into `BBC_Ingestion.ipynb`, the program for reading these articles into a Neo4j database.
+* The BBC dataset is in archived format. Unzip it to get a folder containing business news articles having `.txt` extension. The path where you unzip this archive will go into `BBC_Ingestion.ipynb`, the program for reading these articles into a Neo4j database. To play with the BBC Dataset, load the data into a Neo4j database, run the NLP pipelines and see what insights you can get out of the data.
 * Make sure that following lines are added to `neo4j.conf` file in `NEO4J_HOME/conf/`. For more help, please refer [Github for graphAware documentation](https://github.com/graphaware/neo4j-framework) <br>
 `dbms.unmanaged_extension_classes=com.graphaware.server=/graphaware
 com.graphaware.runtime.enabled=true
