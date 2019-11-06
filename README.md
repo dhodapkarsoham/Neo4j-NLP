@@ -21,4 +21,4 @@ dbms.security.procedures.whitelist=ga.nlp.*
 dbms.security.procedures.unrestricted=ga.nlp.*`<br>
 * Before you start with the Panama Papers exploration , make sure that the folder `graph.db` used in Panama Papers Database is copied in your Neo4j folder in `NEO4J_HOME/data/databases/`.<br>
 * Make sure you allocate sufficient heap size and page cache for Neo4j by making changes in `neo4j.conf` file in `NEO4J_HOME/conf/`. More help aobut this can be found on [Neo4j documentation page](https://neo4j.com/docs/operations-manual/current/performance/memory-configuration/).<br>
-
+* To read more about this code works, head over to the [Neo4j Blog](https://neo4j.com/blog/accelerating-towards-natural-language-search-graphs/) post about this topic.
